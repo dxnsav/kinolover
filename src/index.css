@@ -1,0 +1,13 @@
+@import url("https://db.onlinewebfonts.com/c/fa8cbf16882d4c4c3336976be40d9410?family=Carnas-Medium");
+@import url("https://db.onlinewebfonts.com/c/f4bdacabc53c3a7739545724c8a5c17c?family=Carnas-Regular");
+@import url("https://db.onlinewebfonts.com/c/4314102af9c7bd2f03f6a5ce922b9c7b?family=Carnas");
+@import url("https://use.typekit.net/slu3nds.css");
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	width: 100%;
+}

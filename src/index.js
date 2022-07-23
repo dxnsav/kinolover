@@ -1,14 +1,20 @@
 import React from 'react';
 import {render} from 'react-dom';
-import "normalize.css";
 import App from './App';
-import { GlobalStyles } from "./global-styles";
+import './index.css';
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 render(
-  <>
-    <GlobalStyles />
-    <App />
-  </>,
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}>
+		</Route>
+		</Routes>
+	</BrowserRouter>,
   document.getElementById("root")
 );
-
